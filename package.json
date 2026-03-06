@@ -32,6 +32,7 @@
     "lint:css": "stylelint \"src/**/*.css\"",
     "lint": "npm run lint:js && npm run lint:css",
     "pretest": "npm run lint",
+    "generate:csv": "node scripts/generate-transactions-csv.mjs",
     "start": "vite",
     "build": "vite build",
     "test": "vitest"
